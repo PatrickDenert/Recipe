@@ -8,3 +8,5 @@ future plans:
 2. restructure how instructions are stores
 3. work on a gui
 4. create a string parser to parse user inputs to prevents errors associated with typos and plural words
+
+to use replace the path strings with the path to the recipe/instruction file on your pc
