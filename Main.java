@@ -15,9 +15,9 @@ public class Main {
         int option = myObj.nextInt();  // Read user input
 
         RecipeReader recipe = new RecipeReader();
-        HashMap recipe_array = recipe.main("C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\recipes");  //path to file
+        HashMap recipe_array = recipe.main("insert path to recipe file");  //path to file
         InstructionReader instruction = new InstructionReader();
-        HashMap instruction_array = instruction.main("C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\insructions");  //path to file
+        HashMap instruction_array = instruction.main("insert path to instruction file");  //path to file
 
 
         switch (option) {                   //read user input and run chosen function
