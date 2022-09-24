@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 public class RecipeReader {
     public static HashMap main(String args) {
-        String path = "C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\recipes";      //path to file
+        String path = "insert path to recipe file";      //path to file
         String line = "";
 
         HashMap<String, HashMap<String, String>> recipe_array = null;
