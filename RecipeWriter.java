@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class RecipeWriter {
     public static void main() throws IOException {
-        String recipe_path = "C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\recipes";      //path to file
-        String instruction_path = "C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\instructions";
+        String recipe_path = "insert path to recipe file";      //path to file
+        String instruction_path = "insert path to instruction file";
 
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         File file = new File(recipe_path);
