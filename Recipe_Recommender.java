@@ -43,11 +43,7 @@ public class Recipe_Recommender {
             if (add == 1){
                 new_hashmap.put(i,temp);
             }
-            //System.out.println(add);
         }
-        //System.out.println(new_hashmap);
         return new_hashmap;
-
-
     }
 }
