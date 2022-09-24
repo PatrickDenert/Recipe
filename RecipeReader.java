@@ -32,9 +32,7 @@ public class RecipeReader {
 
 
                 for (int i = 2; i < recipe.length; i++) {                   //split up ingredients and amounts
-                    //System.out.println(item);
                     String[] temp = recipe[i].split(":");
-                    //System.out.println(Arrays.toString(temp));
                     String item = temp[0];
                     String amount = temp[1];
 
@@ -42,13 +40,6 @@ public class RecipeReader {
                 }
                 ingredients.put("servings", String.valueOf(servings));
                 recipe_array.put(recipe_name, ingredients);                  //use recipe name as key and inner hashmap as value
-                //System.out.println(recipe_array.get(recipe_name));
-
-                //=for (String i : ingredients.keySet()) {
-                //    System.out.println("ingredient: " + i + " amount: " + ingredients.get(i));
-                //}
-
-
             }
             return recipe_array;
 
