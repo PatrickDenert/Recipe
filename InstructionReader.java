@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 public class InstructionReader {
     public static HashMap main(String args) {
-        String path = "C:\\Users\\pdene\\IdeaProjects\\recipeapp\\src\\com\\company\\instructions";      //path to file
+        String path = "insert path to instruction file";      //path to file
         String line = "";
 
         HashMap<String, String> instruction_array = null;
