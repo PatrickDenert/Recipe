@@ -21,8 +21,7 @@ public class Main {
 
 
         switch (option) {                   //read user input and run chosen function
-            case 1:
-                //System.out.println("Random com.company.Main.Recipe Selected");
+            case 1:                
                 Recipe obj = new Recipe();
 
                 String input = myObj.nextLine();  // Read user input
@@ -89,13 +88,11 @@ public class Main {
                     for (Object j : temp_hash.keySet()) {
                         if (j == "servings") {
                             servings = Integer.parseInt((String) temp_hash.get(j));
-                            //System.out.println("servings");
                         }
                     }
                     System.out.println("The servings are: "+ servings);
 
                     System.out.println("The instructions are: "+ instruction_array.get(i));
-                    //System.out.println(recipe_array.get(i));
                     return recipe_array.get(i);
                 }
                 else{
